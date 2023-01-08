@@ -1,0 +1,7 @@
+git status                    --- Para ver si hay algun cambio dentro del repositorio
+git add archivoName.extencion --- agregar archivo modificado (Si el nombre del archivo tiene espacio tienes que poner comillas "nombre del archivo.txt"
+git commit "Commit"           --- Comentario que se va a ver en github
+git push 				--- subir cambios del repositorio local al repositorio remoto en github
+ 	( El git push se hace asi solo esos dos cuando estas trabajando en una rama establecida
+	  si quieres subirlo en una especifica o diferente a la que estas trabajando le pones
+		git push origin master [en este caso master es la rama o branch] o git push origin master-v2)
